@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      debugShowCheckedModeBanner: false;
       home: MyHomePage(title: 'Muhammad Masykur Wildan'),
     );
   }
